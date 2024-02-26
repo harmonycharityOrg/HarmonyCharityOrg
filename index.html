@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity Organization</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Custom CSS */
+    .image-container .img-fluid {
+      width: 100%;
+      height: 200px; /* Adjust height as needed */
+      object-fit: cover; /* Ensure images cover the entire container */
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Harmony Charity Organization</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1>Welcome to Harmony Charity Organization</h1>
+    <p>This is a platform where you can contribute to our cause and help those in need.</p>
+    <p>Together, let's make a difference!</p>
+    <p>Your generous contributions will help make dreams come true by repairing and drilling boreholes for clean water, providing nutritious meals for children, and empowering them with access to education, ensuring a brighter future for all.</p>
+    <p>Let's extend a helping hand to them and make a lasting impact on their lives!</p>
+
+    <!-- Button for initiating the call -->
+    <button class="btn btn-primary mt-3" id="initiateCallBtn">Donate Now</button>
+
+    <!-- Photos Section -->
+    <div class="row mt-5">
+      <div class="col-md-4">
+        <img src="kiddos3.jpg" class="img-fluid" alt="Image 1">
+      </div>
+      <div class="col-md-4">
+        <img src="VJ.jpg" class="img-fluid" alt="Image 2">
+      </div>
+      <div class="col-md-4">
+        <img src="hy.jpg" class="img-fluid" alt="Image 3">
+      </div>
+      <div class="col-md-4">
+        <img src="bore.jpg" class="img-fluid" alt="Image 4">
+      </div>
+      <div class="col-md-4">
+        <img src="B.jpg" class="img-fluid" alt="Image 5">
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Section -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col text-center">
+        <h3>Meet Our Team</h3>
+        <div class="row">
+          <div class="col">
+            <i class="fas fa-user fa-3x"></i>
+            <p>John Doe</p>
+            <p>Chairperson</p>
+          </div>
+          <div class="col">
+            <i class="fas fa-user fa-3x"></i>
+            <p>Jane Kigwire</p>
+            <p>Vice Chairperson</p>
+          </div>
+          <div class="col">
+            <i class="fas fa-user fa-3x"></i>
+            <p>Okello Johnson</p>
+            <p>Secretary</p>
+          </div>
+          <div class="col">
+            <i class="fas fa-user fa-3x"></i>
+            <p>Peter Osilo</p>
+            <p>Treasurer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-4 mt-5">
+    <p>&copy; 2017 - 2024 Harmony Charity Organization</p>
+  </footer>
+
+  <!-- Bootstrap JS (Optional) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Custom Script to handle button click -->
+  <script>
+    document.getElementById('initiateCallBtn').addEventListener('click', function() {
+      // This will prompt the user to manually dial the code on their device
+      alert('Please manually dial *185*1*1# and send to our treasurer on 0764360279 on your device to donate as little as you can thank you Peter Osilo.');
+    });
+  </script>
+</body>
+</html>
